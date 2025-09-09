@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import "./Header2.css";
+import "./Header.css";
 export function Header() {
   return (
     <div className="header">
