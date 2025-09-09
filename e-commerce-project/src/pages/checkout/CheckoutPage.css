@@ -6,10 +6,6 @@
   margin-top: 140px;
   margin-bottom: 100px;
 
-  /* margin-left: auto;
-     margin-right auto;
-     Is a trick for centering an element horizontally
-     without needing a container. */
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,13 +18,10 @@
 
 .checkout-page .checkout-grid {
   display: grid;
-  /* Here, 1fr means the first column will take
-     up the remaining space in the grid. */
+
   grid-template-columns: 1fr 350px;
   column-gap: 12px;
 
-  /* Use align-items: start; to prevent the elements
-     in the grid from stretching vertically. */
   align-items: start;
 }
 
@@ -110,7 +103,6 @@
 }
 
 .checkout-page .product-price {
-
   font-weight: 700;
   margin-bottom: 5px;
 }
@@ -152,7 +144,6 @@
 }
 
 .checkout-page .delivery-option-date {
-
   font-weight: 500;
   margin-bottom: 3px;
 }
