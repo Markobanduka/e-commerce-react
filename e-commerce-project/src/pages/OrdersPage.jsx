@@ -1,12 +1,12 @@
 import { Header } from "../components/Header";
 import "./OrdersPage.css";
+import OrdersLogo from "../assets/images/orders-favicon.png";
 export function OrdersPage() {
   return (
     <>
       <title>Orders</title>
-
+      <link rel="icon" type="image/svg+xml" href={OrdersLogo} />;
       <Header />
-
       <div className="orders-page">
         <div className="page-title">Your Orders</div>
 

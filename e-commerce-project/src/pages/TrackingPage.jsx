@@ -1,12 +1,12 @@
 import { Header } from "../components/Header";
 import "./TrackingPage.css";
+import TrackingLogo from "../assets/images/tracking-favicon.png";
 export function TrackingPage() {
   return (
     <>
       <title>Tracking</title>
-
+      <link rel="icon" type="image/svg+xml" href={TrackingLogo} />;
       <Header />
-
       <div className="header">
         <div className="left-section">
           <a href="/" className="header-link">
@@ -35,7 +35,6 @@ export function TrackingPage() {
           </a>
         </div>
       </div>
-
       <div className="tracking-page">
         <div className="order-tracking">
           <a className="back-to-orders-link link-primary" href="/orders">

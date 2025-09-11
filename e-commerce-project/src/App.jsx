@@ -12,6 +12,7 @@ function App() {
       <Route path="checkout" element={<CheckoutPage />} />
       <Route path="orders" element={<OrdersPage />} />
       <Route path="tracking" element={<TrackingPage />} />
+      <Route path="*" element={<h1>404: Page Not Found</h1>} />
     </Routes>
   );
 }
