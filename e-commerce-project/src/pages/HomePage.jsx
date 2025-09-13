@@ -1,16 +1,13 @@
+import axios from "axios";
 import { Header } from "../components/Header";
 import "./HomePage.css";
 import { products } from "../../starting-code/data/products";
 import HomeLogo from "../assets/images/home-favicon.png";
 
 export function HomePage() {
-  fetch("http://localhost:3000/api/products")
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      console.log(data);
-    });
+  axios.get("http://localhost:3000/api/products").then((response) => {
+    console.log(response.data);
+  });
 
   return (
     <>
