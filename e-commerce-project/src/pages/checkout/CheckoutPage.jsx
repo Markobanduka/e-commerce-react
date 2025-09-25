@@ -25,7 +25,7 @@ export function CheckoutPage({ cart, loadCart }) {
   };
 
   useEffect(() => {
-    fetchPaymentSummary;
+    fetchPaymentSummary();
   }, [cart]);
 
   return (
